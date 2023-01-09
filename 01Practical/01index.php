@@ -22,14 +22,14 @@
 
     <form class="row g-3 needs-validation" action="04form_data.php" method="post" novalidate>
         <div class="col-md-4">
-            <label for="validationCustom01" class="form-label">First name</label>
+            <label for="validationCustom01" class="form-label">First Name</label>
             <input type="text" class="form-control" name="fname" required>
             <div class="valid-feedback">
                 Looks good!
             </div>
         </div>
         <div class="col-md-4">
-            <label for="validationCustom02" class="form-label">Last name</label>
+            <label for="validationCustom02" class="form-label">Last Name</label>
             <input type="text" class="form-control" name="lname" required>
             <div class="valid-feedback">
                 Looks good!
@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <label for="validationCustom04" class="form-label">State</label>
+            <label for="validationCustom04" class="form-label">Education</label>
             <select class="form-select" name="education" id="validationCustom04" required>
                 <option selected disabled value="">Choose Education</option>
                 <option>First Year</option>
@@ -65,10 +65,10 @@
             </div>
         </div>
         <div class="col-md-3">
-            <label for="validationCustom05" class="form-label">Zip</label>
+            <label for="validationCustom05" class="form-label">Pincode</label>
             <input type="text" class="form-control" name="zipcode" id="validationCustom05" required>
             <div class="invalid-feedback">
-                Please provide a valid zip.
+                Please provide a valid pincode.
             </div>
         </div>
         <div class="col-12">
